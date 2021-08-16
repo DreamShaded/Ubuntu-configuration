@@ -1,0 +1,8 @@
+#!/bin/bash
+export PATH=$PATH:$HOME/.bu.bin/bin
+export PATH=$PATH:$HOME/.usr/bin
+export PATH=$PATH:$HOME/opt/
+export PATH=$PATH:$HOME/opt/Telegram
+
+bash -c 'sleep 2 ; setxkbmap -layout us,ru -option grp:shifts_toggle'&
+bash -c 'sleep 3 ; xset r rate 170 50' &
